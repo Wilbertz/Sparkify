@@ -9,3 +9,9 @@
 5. [Results](#results)
 
 ## Installation <a name="installation"></a>
+
+## Directory Structure <a name="directoryStructure"></a>
+
+- Root /
+
+    - README.md  
