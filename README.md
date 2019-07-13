@@ -7,7 +7,7 @@
 3. [Results](#results)
 
 ## Installation <a name="installation"></a>
-This project was written in Python 3.6, using Jupyter Notebook on Anaconda. The relevant Python packages for this project are as follows:
+This project was written in Python 3.6, using a Jupyter Notebook on Anaconda. The relevant Python packages for this project are as follows:
 
 - numpy
 - pandas
