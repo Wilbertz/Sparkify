@@ -31,3 +31,4 @@ This project was written in Python 3.6, using a Jupyter Notebook on Anaconda. Th
     - Sparkify.ipynb
     
 ## Results <a name="results"></a>
+The GBT (Gradient Boosted Trees) classifier produced the best results. An F1 score of 85.7 % could be reached after a Grid search. The values for Precision and Recall were 78.9 % and 93.7 %.
