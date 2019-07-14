@@ -102,11 +102,11 @@ But the business would lose customers in case the algorithm would be unable to i
 
 The following classification results could be achieved:
 
-| Algorithm            | F1 Score      |
-| -------------------- | ------------- |
-| Decision Tree        | 0.82          |
-| Logistic Regression  | 0.30          |
-| GBT                  | 0.86          |
+| Algorithm            | F1 Score  | Precision | Recall | Accuracy |
+| -------------------- | --------- | --------- | ------ | -------- |
+| Decision Tree        | 0.82      | 0.78      | 0.87   | 0.95     |
+| Logistic Regression  | 0.30      | 0.75      | 0.19   | 0.87     | 
+| GBT                  | 0.86      | 0.79      | 0.94   | 0.95     |
 
 ## Results <a name="results"></a>
 The GBT (Gradient Boosted Trees) classifier produced the best results. An F1 score of 85.7 % could be reached after a Grid search. The values for Precision and Recall were 78.9 % and 93.7 %.
