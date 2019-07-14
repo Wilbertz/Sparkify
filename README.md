@@ -46,5 +46,11 @@ In case a "Cancellation Confirmation" event for a user is detected, this user is
 There might be multiple cancellation confirmations, due to the fact, 
 that a user registered after cancellations but cancelled again.
 
+## Data Exploration <a name="exploration"></a>
+
+## Features <a name="features"></a>
+
+## Modelling <a name="modelling"></a>
+
 ## Results <a name="results"></a>
 The GBT (Gradient Boosted Trees) classifier produced the best results. An F1 score of 85.7 % could be reached after a Grid search. The values for Precision and Recall were 78.9 % and 93.7 %.
