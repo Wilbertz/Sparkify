@@ -86,6 +86,19 @@ Based upon the observations made during the previous phase of data exploration, 
 A dedicated Python method was created, that did all the feature extraction. All features where converted to numeric values and scaled. As a final step, a data frame with 2 columns, a label column with the label column and a single feature column with a list of scaled numeric features was created.
 
 ## Modelling <a name="modelling"></a>
+The full data-set was split into a training and a validation set. Due to the small number of users that did churn, the split was 60 % for the training set and 40 % for the validation set.
+Several machine learning algorithms are available via PySpark, the following algorithms were selected:
+
+- Random Forest Classifier
+- Logistic Regression
+- Support Vector Machine
+- Gradient Boosted Trees
+
+For all algorithms a grid search for optimal hyper-parameters was done.
+
+The F1 score was used to evaluate the results. The F1 score gives equal weight to precision and recall since it is the harmonic mean of both.
+The business will spend money on users predicted to churn. In order to avoid spending money on users, that will not churn, a high level of precision is necessary.
+But the business would lose customers in case the algorithm would be unable to identify customers that are likely to churn.Therefore a high recall value is desirable.
 
 ## Results <a name="results"></a>
 The GBT (Gradient Boosted Trees) classifier produced the best results. An F1 score of 85.7 % could be reached after a Grid search. The values for Precision and Recall were 78.9 % and 93.7 %.
