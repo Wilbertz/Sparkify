@@ -111,4 +111,4 @@ The following classification results could be achieved:
 There where no F1 Scores for the SVM.
 
 ## Results <a name="results"></a>
-The GBT (Gradient Boosted Trees) classifier produced the best results. An F1 score of 85.7 % could be reached after a Grid search. The values for Precision and Recall were 78.9 % and 93.7 %.
+The GBT (Gradient Boosted Trees) classifier produced the best results. An F1 score of 0.857 % could be reached after a Grid search. The values for Precision and Recall were 0.789 % and 0.937 %.
