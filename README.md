@@ -62,25 +62,25 @@ In case of the 52 users who cancelled, 9 downgraded before cancelling, 43 cancel
 ## Features <a name="features"></a>
 
 Based upon the observations made during the previous phase of data exploration, a number features was created:
-- Session Count
+- Session Count:
   The number of distinct sessions per user.
-- Songs per Session
+- Songs per Session:
   The average number of songs consumed per session.
-- Number of different artists
+- Number of different artists:
   The number of different artist streamed.
-- Days since registration
+- Days since registration:
   The amount of days since registration.
-- Average duration of session
+- Average duration of session:
   The average duration of a session.
-- Average number of songs per day
+- Average number of songs per day:
   The average number of songs streamed per day.
-- Level (free or paid)
+- Level (free or paid):
   Whether the user subscribed to the free or paid service level. One-Hot encoding was used to encode this feature.
-- Average number of thumbs up per day
+- Average number of thumbs up per day:
   The average thumbs up clicks per day.
-- Average number of thumbs down per day
+- Average number of thumbs down per day:
   The average thumbs down clicks per day.
-- Average number of error pages per day
+- Average number of error pages per day:
   The average number of error pages shown to the user per day.
 
 A dedicated Python method was created, that did all the feature extraction. All features where converted to numeric values and scaled. As a final step, a data frame with 2 columns, a label column with the label column and a single feature column with a list of scaled numeric features was created.
