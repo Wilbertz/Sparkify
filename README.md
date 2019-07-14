@@ -115,5 +115,5 @@ There where no F1 Scores for the SVM due to an UndefinedMetrik warning.
 The GBT (Gradient Boosted Trees) classifier produced the best results. An F1 score of 0.857 % could be reached after a Grid search. The values for Precision and Recall were 0.789 % and 0.937 %.
 
 ## Blog <a name="blog"></a>
-There exists a blog describing the project in more detai: https://medium.com/@harald.wilbertz/user-churn-prediction-d23833c5dbb6
+There exists a blog describing the project in more detail: https://medium.com/@harald.wilbertz/user-churn-prediction-d23833c5dbb6
 
