@@ -9,6 +9,7 @@
 5. [Features](#features)
 6. [Modelling](#modelling)
 7. [Results](#results)
+8. [Blog](#blog)
 
 ## Installation <a name="installation"></a>
 This project was written in Python 3.6, using a Jupyter Notebook on Anaconda. The relevant Python packages for this project are as follows:
@@ -30,8 +31,8 @@ This project was written in Python 3.6, using a Jupyter Notebook on Anaconda. Th
 
 - Root /
 
-    - README.md  
-    - Sparkify.ipynb
+    - README.md  (This readme file)
+    - Sparkify.ipynb (The Jupyter notebook containing the analysis)
     
 ## Project Motivation <a name="motivation"></a>
 Sparkify is a music streaming service like Spotify. There are paid premium services and free basic services. 
@@ -112,3 +113,7 @@ There where no F1 Scores for the SVM due to an UndefinedMetrik warning.
 
 ## Results <a name="results"></a>
 The GBT (Gradient Boosted Trees) classifier produced the best results. An F1 score of 0.857 % could be reached after a Grid search. The values for Precision and Recall were 0.789 % and 0.937 %.
+
+## Blog <a name="blog"></a>
+There exists a blog describing the project in more detai: https://medium.com/@harald.wilbertz/user-churn-prediction-d23833c5dbb6
+
