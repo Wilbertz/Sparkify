@@ -100,5 +100,13 @@ The F1 score was used to evaluate the results. The F1 score gives equal weight t
 The business will spend money on users predicted to churn. In order to avoid spending money on users, that will not churn, a high level of precision is necessary.
 But the business would lose customers in case the algorithm would be unable to identify customers that are likely to churn.Therefore a high recall value is desirable.
 
+The following classification results could be achieved:
+
+| Algorithm            | F1 Score      |
+| -------------------- | ------------- |
+| Decision Tree        | 0.82          |
+| Logistic Regression  | 0.30          |
+| GBT                  | 0.86          |
+
 ## Results <a name="results"></a>
 The GBT (Gradient Boosted Trees) classifier produced the best results. An F1 score of 85.7 % could be reached after a Grid search. The values for Precision and Recall were 78.9 % and 93.7 %.
