@@ -38,9 +38,7 @@ This project was written in Python 3.6, using a Jupyter Notebook on Anaconda. Th
 Sparkify is a music streaming service like Spotify. There are paid premium services and free basic services. 
 The free users will listen to ads while the paid users consume songs ad-free. At any time users can upgrade, 
 downgrade or cancel their subscription. 
-We want to identify the users that could potentially cancel their account and leave the service. 
-By identifying this population upfront, we could incentive them by giving them discounts or other rewards. 
-This could make them stick, giving us a loyal customer base which is important for the company's success.
+We want to identify the users who might cancel their account and leave the service. By identifying this population in advance, we can encourage them by offering them discounts or other rewards. This could result in them sticking and giving us a loyal customer base that is important to the success of the business.
 
 Within this project churn is defined as a cancellation of service. 
 In case a "Cancellation Confirmation" event for a user is detected, this user is considered to have churned. 
