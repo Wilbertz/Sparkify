@@ -19,6 +19,7 @@ This project was written in Python 3.6, using a Jupyter Notebook on Anaconda. Th
 - pyspark.ml.feature 
 - pyspark.ml.classification
 - pyspark.ml.evaluation
+- pyspark.ml.tuning
 - sklearn.metrics
 
 
