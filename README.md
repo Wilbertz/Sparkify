@@ -108,5 +108,7 @@ The following classification results could be achieved:
 | Logistic Regression  | 0.30      | 0.75      | 0.19   | 0.87     | 
 | GBT                  | 0.86      | 0.79      | 0.94   | 0.95     |
 
+There where no F1 Scores for the SVM.
+
 ## Results <a name="results"></a>
 The GBT (Gradient Boosted Trees) classifier produced the best results. An F1 score of 85.7 % could be reached after a Grid search. The values for Precision and Recall were 78.9 % and 93.7 %.
