@@ -89,7 +89,7 @@ A dedicated Python method was created, that did all the feature extraction. All 
 The full data-set was split into a training and a validation set. Due to the small number of users that did churn, the split was 60 % for the training set and 40 % for the validation set.
 Several machine learning algorithms are available via PySpark, the following algorithms were selected:
 
-- Random Forest Classifier
+- Decision Tree Classifier
 - Logistic Regression
 - Support Vector Machine
 - Gradient Boosted Trees
@@ -108,7 +108,7 @@ The following classification results could be achieved:
 | Logistic Regression  | 0.30      | 0.75      | 0.19   | 0.87     | 
 | GBT                  | 0.86      | 0.79      | 0.94   | 0.95     |
 
-There where no F1 Scores for the SVM.
+There where no F1 Scores for the SVM due to an UndefinedMetrik warning.
 
 ## Results <a name="results"></a>
 The GBT (Gradient Boosted Trees) classifier produced the best results. An F1 score of 0.857 % could be reached after a Grid search. The values for Precision and Recall were 0.789 % and 0.937 %.
